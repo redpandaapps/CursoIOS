@@ -4,30 +4,29 @@ import UIKit
 
 
 
-
 for s in  0...100{
 
-print(s)
-    
+
+
     if (s % 5 == 0){
-        print("Bingo")
+        print("\(s) Bingo")
     }
     if (s % 2 == 0){
-        print("Par")
-        
+        print("\(s) Par")
+
     }
     else{
-        print("Impar")
-        
-        }
-    switch (s){
-    
-    case 
-        
-        
+        print("\(s) Impar")
+
     }
+    switch (s){
+
+    case 30...40:
+        print("\(s)Viva Swift!!!")
+
+    default:
+        print("")
 
 
-}
 
-
+    }
